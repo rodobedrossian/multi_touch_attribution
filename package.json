@@ -1,0 +1,16 @@
+{
+  "name": "attribution-tracker",
+  "private": true,
+  "scripts": {
+    "dev:api": "pnpm --filter api dev",
+    "dev:dashboard": "pnpm --filter dashboard dev",
+    "build": "pnpm --filter snippet build && pnpm --filter api build && pnpm --filter dashboard build"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
+}
